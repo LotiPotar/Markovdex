@@ -13,7 +13,7 @@ class IndexScraper():
         self.days_collected = 1
     
     def __str__(self):
-        return f"This is a scraping tool for Index.hu created by Lotar Poti. The scraping will start with this url: {self.starting_url}"
+        return f"This is a scraping tool for Index.hu created by me. The scraping will start with this url: {self.starting_url}"
 
     def _get_contents(self, links):
         
